@@ -15,7 +15,7 @@ const navItems: NavItem[] = [
 ];
 
 export const Navbar = () => {
-  const [activeItem, setActiveItem] = useState('experiência');
+  const [activeItem, setActiveItem] = useState('');
 
   return (
     <nav className="sticky top-0 z-50 flex items-center justify-between px-7 py-4.5 bg-[rgba(10,12,15,0.92)] border-b border-border">
